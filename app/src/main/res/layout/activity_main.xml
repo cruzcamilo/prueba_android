@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/java_string_reverse_btn"
+            style="@style/main_activity_btn"
+            android:onClick="stringReverse"
+            android:text="@string/java_string_reverse" />
+
+        <Button
+            android:id="@+id/java_anagrams_btn"
+            style="@style/main_activity_btn"
+            android:onClick="javaAnagrams"
+            android:text="@string/java_anagrams" />
+
+        <Button
+            android:id="@+id/java_sorts_btn"
+            style="@style/main_activity_btn"
+            android:text="@string/java_sorts" />
+
+        <Button
+            android:id="@+id/java_arraylist_btn"
+            style="@style/main_activity_btn"
+            android:text="@string/java_arraylist" />
+
+        <Button
+            android:id="@+id/java_regex_btn"
+            style="@style/main_activity_btn"
+            android:text="@string/java_regex_2" />
+    </LinearLayout>
+</layout>

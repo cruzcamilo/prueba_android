@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Prueba_Android</string>
+    <string name="java_string_reverse">Java String Reverse</string>
+    <string name="java_anagrams">Java Anagrams</string>
+    <string name="java_sorts">Java String Reverse</string>
+    <string name="java_regex_2">Java Regex 2</string>
+    <string name="java_arraylist">Java Arraylist</string>
+    <string name="check">Check</string>
+    <string name="toast_string_reverse_length">Please enter a word with 50 or less characters</string>
+    <string name="only_lower_case">Please enter only lower case english letters</string>
+    <string name="no_string_message">Please enter a string</string>
+    <string name="yes">Yes.</string>
+    <string name="No">No.</string>
+    <string name="reverse_string_title">Enter a word to check if it\'s a palindrome</string>
+    <string name="length_anagram">Please enter no more than 50 characters</string>
+    <string name="only_alphabetic_characters">Please enter only english alphabetic characters</string>
+    <string name="not_anagrams">Not Anagrams</string>
+    <string name="anagrams">Anagrams</string>
+</resources>
