@@ -26,6 +26,7 @@
         <Button
             android:id="@+id/java_sorts_btn"
             style="@style/main_activity_btn"
+            android:onClick="javaSort"
             android:text="@string/java_sorts" />
 
         <Button

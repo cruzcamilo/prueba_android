@@ -27,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(stringReverseIntent);
     }
 
-    
+    public void javaSort(View view){
+        Intent stringReverseIntent = new Intent(this, JavaSort.class);
+        startActivity(stringReverseIntent);
+    }
+
+
 }

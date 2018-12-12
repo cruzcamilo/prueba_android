@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".StringReverse" />
-        <activity android:name=".JavaAnagrams"></activity>
+        <activity android:name=".JavaAnagrams" />
+        <activity android:name=".JavaSort"></activity>
     </application>
 
 </manifest>
