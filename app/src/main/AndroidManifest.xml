@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".StringReverse" />
         <activity android:name=".JavaAnagrams" />
-        <activity android:name=".JavaSort"></activity>
+        <activity android:name=".JavaSort" />
+        <activity android:name=".JavaArray"/>
     </application>
 
 </manifest>

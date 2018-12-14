@@ -12,6 +12,7 @@ public class Student {
         this.firstName = firstName;
         this.cgpa = cgpa;
     }
+
     public int getId() {
         return id;
     }
@@ -26,11 +27,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", cgpa=" + cgpa +
-                '}';
+        return id + " " + firstName + " " + cgpa;
     }
 
     public static Comparator<Student> studentComparator = new Comparator<Student>() {

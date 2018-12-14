@@ -21,4 +21,5 @@
     <string name="student_hint">ID Name CGPA</string>
     <string name="total_of_students">Total of students</string>
     <string name="student_number_range">Enter a number between 2 and 1000</string>
+    <string name="total_queries">Total of queries</string>
 </resources>

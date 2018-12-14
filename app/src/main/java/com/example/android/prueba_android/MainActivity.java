@@ -5,11 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.android.prueba_android.databinding.ActivityMainBinding;
-
 public class MainActivity extends AppCompatActivity {
-
-    private ActivityMainBinding activityMainBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,5 +28,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(stringReverseIntent);
     }
 
-
+    public void javaArray(View view){
+        Intent stringReverseIntent = new Intent(this, JavaArray.class);
+        startActivity(stringReverseIntent);
+    }
 }
