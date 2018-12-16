@@ -46,7 +46,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:hint="@string/total_queries"
-            android:inputType="number" />
+            android:inputType="datetime" />
 
         <EditText
             android:id="@+id/query_et"
@@ -57,12 +57,10 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:inputType="date"
+            android:inputType="datetime"
             android:hint="Query. Example: 1 1" />
 
     </LinearLayout>
-
-
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -96,7 +94,6 @@
                 android:enabled="false"
                 android:onClick="executeQuery"
                 android:text="Query" />
-
         </LinearLayout>
 
         <ListView
